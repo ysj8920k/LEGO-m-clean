@@ -1,0 +1,76 @@
+2024-02-13 20:21:31,223 INFO    StreamThr :26896 [internal.py:wandb_internal():86] W&B internal server running at pid: 26896, started at: 2024-02-13 20:21:31.222298
+2024-02-13 20:21:31,224 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status
+2024-02-13 20:21:31,226 INFO    WriterThread:26896 [datastore.py:open_for_write():85] open: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\run-d8cvw75q.wandb
+2024-02-13 20:21:31,226 DEBUG   SenderThread:26896 [sender.py:send():380] send: header
+2024-02-13 20:21:31,252 DEBUG   SenderThread:26896 [sender.py:send():380] send: run
+2024-02-13 20:21:31,715 INFO    SenderThread:26896 [dir_watcher.py:__init__():211] watching files in: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\files
+2024-02-13 20:21:31,715 INFO    SenderThread:26896 [sender.py:_start_run_threads():1122] run started: d8cvw75q with start time 1707852091.223297
+2024-02-13 20:21:31,719 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: check_version
+2024-02-13 20:21:31,720 DEBUG   SenderThread:26896 [sender.py:send_request():407] send_request: check_version
+2024-02-13 20:21:31,849 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: run_start
+2024-02-13 20:21:31,868 DEBUG   HandlerThread:26896 [system_info.py:__init__():32] System info init
+2024-02-13 20:21:31,869 DEBUG   HandlerThread:26896 [system_info.py:__init__():47] System info init done
+2024-02-13 20:21:31,869 INFO    HandlerThread:26896 [system_monitor.py:start():181] Starting system monitor
+2024-02-13 20:21:31,869 INFO    SystemMonitor:26896 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-02-13 20:21:31,869 INFO    HandlerThread:26896 [system_monitor.py:probe():201] Collecting system info
+2024-02-13 20:21:31,875 INFO    SystemMonitor:26896 [interfaces.py:start():190] Started cpu monitoring
+2024-02-13 20:21:31,876 INFO    SystemMonitor:26896 [interfaces.py:start():190] Started disk monitoring
+2024-02-13 20:21:31,876 INFO    SystemMonitor:26896 [interfaces.py:start():190] Started gpu monitoring
+2024-02-13 20:21:31,885 INFO    SystemMonitor:26896 [interfaces.py:start():190] Started memory monitoring
+2024-02-13 20:21:31,893 INFO    SystemMonitor:26896 [interfaces.py:start():190] Started network monitoring
+2024-02-13 20:21:31,898 DEBUG   HandlerThread:26896 [system_info.py:probe():196] Probing system
+2024-02-13 20:21:31,899 DEBUG   HandlerThread:26896 [system_info.py:_probe_git():181] Probing git
+2024-02-13 20:21:31,944 DEBUG   HandlerThread:26896 [system_info.py:_probe_git():189] Probing git done
+2024-02-13 20:21:31,944 DEBUG   HandlerThread:26896 [system_info.py:probe():244] Probing system done
+2024-02-13 20:21:31,945 DEBUG   HandlerThread:26896 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.10.9', 'heartbeatAt': '2024-02-13T19:21:31.898643', 'startedAt': '2024-02-13T19:21:31.217297', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Krille945/LEGO-Master.git', 'commit': '5ba692c73e062709b4798d0d0e617eca5b3fca1d'}, 'email': 'ovre.acc@gmail.com', 'root': 'E:/LEGO-Master', 'host': 'DESKTOP-KKNLCSN', 'username': 'y8092k', 'executable': 'c:\\Users\\y8092k\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 4501.0, 'min': 0.0, 'max': 4501.0}, 'cpu_freq_per_core': [{'current': 4501.0, 'min': 0.0, 'max': 4501.0}], 'disk': {'/': {'total': 1862.9999961853027, 'used': 1305.7486190795898}}, 'gpu': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'memory_total': 17171480576}], 'memory': {'total': 31.15673065185547}}
+2024-02-13 20:21:31,945 INFO    HandlerThread:26896 [system_monitor.py:probe():211] Finished collecting system info
+2024-02-13 20:21:31,945 INFO    HandlerThread:26896 [system_monitor.py:probe():214] Publishing system info
+2024-02-13 20:21:31,945 DEBUG   HandlerThread:26896 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-02-13 20:21:31,945 DEBUG   HandlerThread:26896 [system_info.py:_save_pip():68] Saving pip packages done
+2024-02-13 20:21:31,946 INFO    HandlerThread:26896 [system_monitor.py:probe():216] Finished publishing system info
+2024-02-13 20:21:31,952 DEBUG   SenderThread:26896 [sender.py:send():380] send: files
+2024-02-13 20:21:31,952 INFO    SenderThread:26896 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-02-13 20:21:31,961 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-13 20:21:31,961 DEBUG   SenderThread:26896 [sender.py:send_request():407] send_request: stop_status
+2024-02-13 20:21:31,962 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: internal_messages
+2024-02-13 20:21:32,208 DEBUG   SenderThread:26896 [sender.py:send():380] send: telemetry
+2024-02-13 20:21:32,674 INFO    wandb-upload_0:26896 [upload_job.py:push():131] Uploaded file C:\Users\y8092k\AppData\Local\Temp\tmp6may_x3mwandb\bfw4rrrh-wandb-metadata.json
+2024-02-13 20:21:32,715 INFO    Thread-17 :26896 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\files\requirements.txt
+2024-02-13 20:21:32,715 INFO    Thread-17 :26896 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\files\output.log
+2024-02-13 20:21:32,715 INFO    Thread-17 :26896 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\files\wandb-metadata.json
+2024-02-13 20:21:34,723 INFO    Thread-17 :26896 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\files\output.log
+2024-02-13 20:21:36,363 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:21:36,738 INFO    Thread-17 :26896 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\files\output.log
+2024-02-13 20:21:38,753 INFO    Thread-17 :26896 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\files\output.log
+2024-02-13 20:21:40,763 INFO    Thread-17 :26896 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\files\output.log
+2024-02-13 20:21:41,789 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:21:41,792 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-13 20:21:41,792 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-13 20:21:42,791 INFO    Thread-17 :26896 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\files\output.log
+2024-02-13 20:21:44,812 INFO    Thread-17 :26896 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\files\output.log
+2024-02-13 20:21:46,950 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: internal_messages
+2024-02-13 20:21:46,965 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-13 20:21:46,965 DEBUG   SenderThread:26896 [sender.py:send_request():407] send_request: stop_status
+2024-02-13 20:21:47,136 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:21:52,175 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:21:57,211 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:22:01,955 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: internal_messages
+2024-02-13 20:22:01,970 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-13 20:22:01,970 DEBUG   SenderThread:26896 [sender.py:send_request():407] send_request: stop_status
+2024-02-13 20:22:03,142 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:22:07,041 INFO    Thread-17 :26896 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240213_202131-d8cvw75q\files\config.yaml
+2024-02-13 20:22:11,277 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:22:16,345 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:22:16,968 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: internal_messages
+2024-02-13 20:22:16,968 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-13 20:22:16,968 DEBUG   SenderThread:26896 [sender.py:send_request():407] send_request: stop_status
+2024-02-13 20:22:22,254 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:22:27,286 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:22:31,904 DEBUG   SystemMonitor:26896 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-02-13 20:22:31,904 DEBUG   SenderThread:26896 [sender.py:send():380] send: stats
+2024-02-13 20:22:31,982 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: internal_messages
+2024-02-13 20:22:31,982 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-13 20:22:31,982 DEBUG   SenderThread:26896 [sender.py:send_request():407] send_request: stop_status
+2024-02-13 20:22:33,245 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:22:38,310 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report
+2024-02-13 20:22:43,360 DEBUG   HandlerThread:26896 [handler.py:handle_request():144] handle_request: status_report

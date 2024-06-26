@@ -1,0 +1,19 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+WARNING ⚠️ No labels found in E:\LEGO-Master\Yolo-LEGO-test\data\labels\train.cache, training may not work correctly. See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
+WARNING ⚠️ No labels found in E:\LEGO-Master\Yolo-LEGO-test\data\labels\val.cache, training may not work correctly. See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.
+[34m[1mtrain: [39m[22mScanning E:\LEGO-Master\Yolo-LEGO-test\data\labels\train.cache... 0 images, 100 backgrounds, 0 corrupt: 100%|██████████| 100/100 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning E:\LEGO-Master\Yolo-LEGO-test\data\labels\val.cache... 0 images, 10 backgrounds, 0 corrupt: 100%|██████████| 10/10 [00:00<?, ?it/s]
+Plotting labels to runs\segment\train85\labels.jpg...
+zero-size array to reduction operation maximum which has no identity
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.000556, momentum=0.9) with parameter groups 66 weight(decay=0.0), 77 weight(decay=0.0005), 76 bias(decay=0.0)
+  0%|          | 0/7 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns\segment\train85
+Starting training for 200 epochs...
+      1/200      2.61G          0          0      116.6          0          0        640: 100%|██████████| 7/7 [00:03<00:00,  1.84it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00,  7.60it/s]

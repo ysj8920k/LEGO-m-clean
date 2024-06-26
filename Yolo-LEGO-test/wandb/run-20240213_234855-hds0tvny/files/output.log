@@ -1,0 +1,643 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1mtrain: [39m[22mScanning E:\LEGO-Master\Yolo-LEGO-test\data\labels\train.cache... 30 images, 0 backgrounds, 0 corrupt: 100%|██████████| 30/30 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning E:\LEGO-Master\Yolo-LEGO-test\data\labels\val.cache... 8 images, 0 backgrounds, 0 corrupt: 100%|██████████| 8/8 [00:00<?, ?it/s]
+Plotting labels to runs\segment\train98\labels.jpg...
+zero-size array to reduction operation maximum which has no identity
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.000714, momentum=0.9) with parameter groups 66 weight(decay=0.0), 77 weight(decay=0.0005), 76 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mruns\segment\train98
+Starting training for 200 epochs...
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+  0%|          | 0/2 [00:00<?, ?it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+      1/200      2.61G          0          0        120          0          0        640: 100%|██████████| 2/2 [00:03<00:00,  1.71s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00,  5.66it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+      2/200      2.58G          0          0        120          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 11.93it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 29.38it/s]
+      3/200      2.56G          0          0        120          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.99it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 33.87it/s]
+      4/200      2.58G          0          0        120          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 10.52it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 30.24it/s]
+      5/200       2.6G          0          0      119.2          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.36it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.14it/s]
+  0%|          | 0/2 [00:00<?, ?it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+      6/200       2.6G          0          0      118.3          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.62it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 33.25it/s]
+      7/200       2.6G          0          0      117.3          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.53it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.55it/s]
+      8/200       2.6G          0          0      116.4          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.50it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.06it/s]
+      9/200       2.6G          0          0      115.3          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.03it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 33.08it/s]
+  0%|          | 0/2 [00:00<?, ?it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+     10/200       2.6G          0          0      114.8          0          0        640: 100%|██████████| 2/2 [00:00<00:00,  6.93it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.16it/s]
+     11/200       2.6G          0          0      114.1          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.81it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 29.10it/s]
+     12/200       2.6G          0          0      113.4          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.92it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 31.17it/s]
+     13/200       2.6G          0          0      112.7          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.20it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 34.20it/s]
+     14/200       2.6G          0          0      119.9          0          0        640:  50%|█████     | 1/2 [00:00<00:00,  9.95it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+     14/200       2.6G          0          0        112          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.25it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 29.13it/s]
+     15/200       2.6G          0          0      111.2          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.22it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 31.87it/s]
+     16/200       2.6G          0          0      110.4          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.97it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 29.62it/s]
+     17/200       2.6G          0          0      109.7          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.39it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 30.23it/s]
+  0%|          | 0/2 [00:00<?, ?it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+     18/200       2.6G          0          0      108.7          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.41it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 31.22it/s]
+     19/200       2.6G          0          0      107.9          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.71it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 30.63it/s]
+     20/200       2.6G          0          0        107          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.95it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.69it/s]
+     21/200       2.6G          0          0      106.1          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.80it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 34.44it/s]
+  0%|          | 0/2 [00:00<?, ?it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+     22/200       2.6G          0          0      105.3          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.24it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 33.63it/s]
+     23/200       2.6G          0          0      104.2          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.34it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 30.74it/s]
+     24/200       2.6G          0          0      103.3          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.34it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 35.69it/s]
+     25/200       2.6G          0          0      102.5          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.28it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.29it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+     26/200       2.6G          0          0        102          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.72it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 35.58it/s]
+     27/200      2.61G          0          0      101.6          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.69it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.18it/s]
+     28/200      2.61G          0          0      100.6          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.38it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 30.32it/s]
+     29/200       2.6G          0          0      100.3          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.20it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 34.39it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+     30/200      2.61G          0          0      100.1          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.89it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 31.72it/s]
+     31/200      2.61G          0          0      100.2          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.35it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 30.06it/s]
+     32/200       2.6G          0          0      99.56          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.86it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 34.31it/s]
+     33/200      2.61G          0          0      99.71          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.88it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 31.36it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+     34/200      2.61G          0          0      98.95          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.99it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.22it/s]
+     35/200       2.6G          0          0      98.54          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.64it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 30.38it/s]
+     36/200      2.61G          0          0       98.1          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.63it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.71it/s]
+     37/200      2.61G          0          0      97.37          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.53it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.56it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+     38/200       2.6G          0          0      97.14          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.62it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.56it/s]
+     39/200      2.61G          0          0      97.02          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.67it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 33.29it/s]
+     40/200      2.61G          0          0      95.74          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.15it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 34.82it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+     41/200       2.6G          0          0      96.09          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.03it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 34.55it/s]
+     42/200      2.61G          0          0      95.42          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.62it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.86it/s]
+     43/200      2.61G          0          0      94.76          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.40it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.76it/s]
+     44/200      2.61G          0          0      94.82          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.39it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.73it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+     45/200      2.61G          0          0      94.27          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.95it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 34.94it/s]
+     46/200      2.61G          0          0      94.22          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.74it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 35.61it/s]
+     47/200      2.61G          0          0      93.56          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.42it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.01it/s]
+     48/200      2.61G          0          0       93.5          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.43it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.97it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+     49/200      2.61G          0          0      92.89          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.26it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 38.33it/s]
+     50/200      2.61G          0          0      92.87          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.48it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.91it/s]
+     51/200      2.61G          0          0       92.6          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.35it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 34.97it/s]
+     52/200      2.61G          0          0      92.34          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.40it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 40.78it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+     53/200      2.61G          0          0      91.61          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.64it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 33.88it/s]
+     54/200      2.61G          0          0      91.62          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.43it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.93it/s]
+     55/200      2.61G          0          0       90.8          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.49it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 37.62it/s]
+     56/200      2.61G          0          0      91.61          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.65it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 34.93it/s]
+     57/200      2.61G          0          0      90.41          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.17it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 31.10it/s]
+     58/200      2.61G          0          0      90.29          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.36it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 34.36it/s]
+     59/200      2.61G          0          0      89.91          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.83it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 33.77it/s]
+     60/200      2.61G          0          0      89.87          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.60it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 38.92it/s]
+     61/200      2.61G          0          0      89.34          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.60it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):   0%|          | 0/1 [00:00<?, ?it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 20.36it/s]
+     62/200      2.61G          0          0       89.2          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.18it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 40.35it/s]
+     63/200      2.61G          0          0      88.67          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 16.02it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 39.89it/s]
+     64/200      2.61G          0          0      88.71          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.70it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 39.88it/s]
+     65/200      2.61G          0          0      88.13          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.70it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 39.78it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+     66/200      2.61G          0          0      88.07          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.12it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 39.67it/s]
+     67/200      2.61G          0          0      87.49          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.88it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 40.17it/s]
+     68/200      2.61G          0          0      87.56          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.77it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 39.03it/s]
+     69/200      2.61G          0          0      87.01          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.46it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 42.44it/s]
+     70/200      2.61G          0          0      86.92          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.90it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 39.82it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+     71/200      2.61G          0          0      86.26          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 16.02it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 40.77it/s]
+     72/200      2.61G          0          0      86.35          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.19it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 40.63it/s]
+     73/200      2.61G          0          0         86          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.95it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 39.62it/s]
+     74/200      2.61G          0          0      85.75          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.17it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 40.74it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+     75/200      2.61G          0          0      85.28          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.77it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 35.02it/s]
+     76/200      2.61G          0          0      85.27          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.08it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.22it/s]
+     77/200      2.61G          0          0      84.66          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 16.04it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 38.93it/s]
+     78/200      2.61G          0          0      84.77          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.11it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.48it/s]
+  0%|          | 0/2 [00:00<?, ?it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+     79/200      2.61G          0          0      84.24          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.87it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 39.87it/s]
+     80/200      2.61G          0          0      84.17          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.11it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.51it/s]
+     81/200      2.61G          0          0      83.68          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.99it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 43.15it/s]
+     82/200      2.61G          0          0       83.7          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.98it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 39.13it/s]
+     83/200      2.61G          0          0      83.21          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.69it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.52it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+     84/200      2.61G          0          0      83.19          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.49it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.55it/s]
+     85/200      2.61G          0          0      82.64          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.84it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 42.51it/s]
+     86/200      2.61G          0          0      82.73          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.21it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.31it/s]
+     87/200      2.61G          0          0       82.1          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 16.05it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.43it/s]
+     88/200       2.6G          0          0      87.55          0          0        640:   0%|          | 0/2 [00:00<?, ?it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+     88/200      2.61G          0          0      82.14          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.81it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 40.26it/s]
+     89/200      2.61G          0          0      81.66          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.78it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.48it/s]
+     90/200      2.61G          0          0      81.53          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.23it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.95it/s]
+     91/200      2.61G          0          0      81.11          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.97it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95):   0%|          | 0/1 [00:00<?, ?it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.39it/s]
+     92/200      2.61G          0          0      81.08          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.06it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.49it/s]
+     93/200      2.61G          0          0      80.67          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.59it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.64it/s]
+     94/200      2.61G          0          0      80.78          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.65it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 38.47it/s]
+     95/200      2.61G          0          0      80.23          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.63it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 42.64it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+     96/200      2.61G          0          0      80.22          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.00it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.41it/s]
+     97/200      2.61G          0          0      79.79          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.91it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 43.16it/s]
+     98/200      2.61G          0          0       79.9          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.77it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 35.57it/s]
+     99/200      2.61G          0          0      79.45          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.90it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 43.27it/s]
+    100/200       2.6G          0          0      84.69          0          0        640:   0%|          | 0/2 [00:00<?, ?it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+    100/200      2.61G          0          0      79.46          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.23it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 38.05it/s]
+    101/200      2.61G          0          0      79.15          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 16.04it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 40.63it/s]
+    102/200      2.61G          0          0       79.1          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.05it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 25.74it/s]
+    103/200      2.61G          0          0       78.6          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.94it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 42.63it/s]
+    104/200      2.61G          0          0       78.6          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.68it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 34.83it/s]
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+    105/200      2.61G          0          0      78.25          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.76it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 35.61it/s]
+    106/200      2.61G          0          0       78.3          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.39it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.99it/s]
+    107/200      2.61G          0          0      77.93          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.56it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 38.12it/s]
+    108/200      2.61G          0          0       77.9          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.55it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 39.87it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+    109/200      2.61G          0          0      77.45          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.17it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 35.69it/s]
+    110/200      2.61G          0          0      77.46          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.62it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 32.13it/s]
+    111/200      2.61G          0          0      76.97          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.05it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.88it/s]
+    112/200      2.61G          0          0      77.03          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.51it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 33.03it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+    113/200      2.61G          0          0      76.56          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.64it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 33.79it/s]
+    114/200      2.61G          0          0      76.56          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.14it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 38.34it/s]
+    115/200      2.61G          0          0       76.2          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 14.94it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.30it/s]
+    116/200      2.61G          0          0      76.18          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.88it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 35.04it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+    117/200      2.61G          0          0      75.77          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.09it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 38.12it/s]
+    118/200      2.61G          0          0      75.77          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 12.95it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 35.05it/s]
+    119/200      2.61G          0          0      75.43          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.12it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.48it/s]
+    120/200      2.61G          0          0      75.37          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.67it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.97it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+    121/200      2.61G          0          0      75.11          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.34it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 38.18it/s]
+    122/200      2.61G          0          0      75.13          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.28it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 36.15it/s]
+    123/200      2.61G          0          0      74.75          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 15.30it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 37.67it/s]
+    124/200      2.61G          0          0      74.71          0          0        640: 100%|██████████| 2/2 [00:00<00:00, 13.38it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 38.75it/s]
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss  Instances       Size
+                   all          8          0          0          0          0          0          0          0          0          0
+WARNING ⚠️ no labels found in segment set, can not compute metrics without labels

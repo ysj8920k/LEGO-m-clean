@@ -1,0 +1,193 @@
+2024-02-14 00:01:36,645 INFO    StreamThr :17032 [internal.py:wandb_internal():86] W&B internal server running at pid: 17032, started at: 2024-02-14 00:01:36.645804
+2024-02-14 00:01:36,646 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: status
+2024-02-14 00:01:36,648 INFO    WriterThread:17032 [datastore.py:open_for_write():85] open: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\run-tscgtcb5.wandb
+2024-02-14 00:01:36,649 DEBUG   SenderThread:17032 [sender.py:send():380] send: header
+2024-02-14 00:01:36,672 DEBUG   SenderThread:17032 [sender.py:send():380] send: run
+2024-02-14 00:01:37,277 INFO    SenderThread:17032 [dir_watcher.py:__init__():211] watching files in: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files
+2024-02-14 00:01:37,277 INFO    SenderThread:17032 [sender.py:_start_run_threads():1122] run started: tscgtcb5 with start time 1707865296.646803
+2024-02-14 00:01:37,280 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: check_version
+2024-02-14 00:01:37,280 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: check_version
+2024-02-14 00:01:37,395 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: run_start
+2024-02-14 00:01:37,414 DEBUG   HandlerThread:17032 [system_info.py:__init__():32] System info init
+2024-02-14 00:01:37,414 DEBUG   HandlerThread:17032 [system_info.py:__init__():47] System info init done
+2024-02-14 00:01:37,414 INFO    HandlerThread:17032 [system_monitor.py:start():181] Starting system monitor
+2024-02-14 00:01:37,414 INFO    SystemMonitor:17032 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-02-14 00:01:37,414 INFO    HandlerThread:17032 [system_monitor.py:probe():201] Collecting system info
+2024-02-14 00:01:37,419 INFO    SystemMonitor:17032 [interfaces.py:start():190] Started cpu monitoring
+2024-02-14 00:01:37,420 INFO    SystemMonitor:17032 [interfaces.py:start():190] Started disk monitoring
+2024-02-14 00:01:37,420 INFO    SystemMonitor:17032 [interfaces.py:start():190] Started gpu monitoring
+2024-02-14 00:01:37,428 INFO    SystemMonitor:17032 [interfaces.py:start():190] Started memory monitoring
+2024-02-14 00:01:37,434 INFO    SystemMonitor:17032 [interfaces.py:start():190] Started network monitoring
+2024-02-14 00:01:37,438 DEBUG   HandlerThread:17032 [system_info.py:probe():196] Probing system
+2024-02-14 00:01:37,439 DEBUG   HandlerThread:17032 [system_info.py:_probe_git():181] Probing git
+2024-02-14 00:01:37,480 DEBUG   HandlerThread:17032 [system_info.py:_probe_git():189] Probing git done
+2024-02-14 00:01:37,480 DEBUG   HandlerThread:17032 [system_info.py:probe():244] Probing system done
+2024-02-14 00:01:37,480 DEBUG   HandlerThread:17032 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.10.9', 'heartbeatAt': '2024-02-13T23:01:37.438870', 'startedAt': '2024-02-13T23:01:36.640296', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Krille945/LEGO-Master.git', 'commit': '5ba692c73e062709b4798d0d0e617eca5b3fca1d'}, 'email': 'ovre.acc@gmail.com', 'root': 'E:/LEGO-Master', 'host': 'DESKTOP-KKNLCSN', 'username': 'y8092k', 'executable': 'c:\\Users\\y8092k\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 4501.0, 'min': 0.0, 'max': 4501.0}, 'cpu_freq_per_core': [{'current': 4501.0, 'min': 0.0, 'max': 4501.0}], 'disk': {'/': {'total': 1862.9999961853027, 'used': 1306.7649879455566}}, 'gpu': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'memory_total': 17171480576}], 'memory': {'total': 31.15673065185547}}
+2024-02-14 00:01:37,480 INFO    HandlerThread:17032 [system_monitor.py:probe():211] Finished collecting system info
+2024-02-14 00:01:37,480 INFO    HandlerThread:17032 [system_monitor.py:probe():214] Publishing system info
+2024-02-14 00:01:37,480 DEBUG   HandlerThread:17032 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-02-14 00:01:37,481 DEBUG   HandlerThread:17032 [system_info.py:_save_pip():68] Saving pip packages done
+2024-02-14 00:01:37,481 INFO    HandlerThread:17032 [system_monitor.py:probe():216] Finished publishing system info
+2024-02-14 00:01:37,487 DEBUG   SenderThread:17032 [sender.py:send():380] send: files
+2024-02-14 00:01:37,487 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-02-14 00:01:37,495 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-14 00:01:37,495 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: stop_status
+2024-02-14 00:01:37,496 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: internal_messages
+2024-02-14 00:01:37,716 DEBUG   SenderThread:17032 [sender.py:send():380] send: telemetry
+2024-02-14 00:01:38,158 INFO    wandb-upload_0:17032 [upload_job.py:push():131] Uploaded file C:\Users\y8092k\AppData\Local\Temp\tmp6svdjjvzwandb\42o8gmdy-wandb-metadata.json
+2024-02-14 00:01:38,287 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\output.log
+2024-02-14 00:01:38,287 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\wandb-metadata.json
+2024-02-14 00:01:38,287 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\requirements.txt
+2024-02-14 00:01:40,302 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\output.log
+2024-02-14 00:01:41,688 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: status_report
+2024-02-14 00:01:42,317 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\output.log
+2024-02-14 00:01:44,325 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\output.log
+2024-02-14 00:01:46,343 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\output.log
+2024-02-14 00:01:46,690 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: status_report
+2024-02-14 00:01:46,696 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:46,697 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:47,314 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:47,682 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:47,682 DEBUG   SenderThread:17032 [sender.py:send():380] send: files
+2024-02-14 00:01:47,682 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file media\images\train_batch0_1_b059bf6fa2f77700649f.jpg with policy now
+2024-02-14 00:01:47,696 DEBUG   SenderThread:17032 [sender.py:send():380] send: files
+2024-02-14 00:01:47,696 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:47,696 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file media\images\train_batch1_1_bb7d73671b99ea50f9f3.jpg with policy now
+2024-02-14 00:01:47,810 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:48,057 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:48,058 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:48,058 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:48,058 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:48,058 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:48,303 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:48,318 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:48,318 DEBUG   SenderThread:17032 [sender.py:send():380] send: files
+2024-02-14 00:01:48,318 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file media\images\train_batch2_2_19d0d41730f856ed9de9.jpg with policy now
+2024-02-14 00:01:48,357 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\output.log
+2024-02-14 00:01:48,358 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\media\images\train_batch2_2_19d0d41730f856ed9de9.jpg
+2024-02-14 00:01:48,358 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\wandb-summary.json
+2024-02-14 00:01:48,358 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\media\images\train_batch0_1_b059bf6fa2f77700649f.jpg
+2024-02-14 00:01:48,358 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\media\images\train_batch1_1_bb7d73671b99ea50f9f3.jpg
+2024-02-14 00:01:48,358 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\media\images
+2024-02-14 00:01:48,359 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_created():271] file/dir created: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\media
+2024-02-14 00:01:48,485 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:48,485 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:48,486 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:48,486 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:48,486 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:48,717 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:48,810 INFO    wandb-upload_0:17032 [upload_job.py:push():131] Uploaded file C:\Users\y8092k\AppData\Local\Temp\tmp6svdjjvzwandb\z3phdmi2-media/images/train_batch0_1_b059bf6fa2f77700649f.jpg
+2024-02-14 00:01:48,812 INFO    wandb-upload_1:17032 [upload_job.py:push():131] Uploaded file C:\Users\y8092k\AppData\Local\Temp\tmp6svdjjvzwandb\1x945kag-media/images/train_batch1_1_bb7d73671b99ea50f9f3.jpg
+2024-02-14 00:01:48,904 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:48,905 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:48,905 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:48,905 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:48,905 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:49,221 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:49,372 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\wandb-summary.json
+2024-02-14 00:01:49,394 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:49,395 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:49,395 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:49,395 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:49,395 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:49,518 INFO    wandb-upload_2:17032 [upload_job.py:push():131] Uploaded file C:\Users\y8092k\AppData\Local\Temp\tmp6svdjjvzwandb\pcqs0yte-media/images/train_batch2_2_19d0d41730f856ed9de9.jpg
+2024-02-14 00:01:49,699 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:49,870 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:49,870 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:49,871 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:49,871 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:49,871 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:49,999 INFO    wandb-upload_0:17032 [upload_job.py:push():131] Uploaded file C:\Users\y8092k\AppData\Local\Temp\tmp6svdjjvzwandb\imf2ld2c-media/images/train_batch0_1_b059bf6fa2f77700649f.jpg
+2024-02-14 00:01:50,172 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:50,343 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:50,344 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:50,344 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:50,344 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:50,344 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:50,385 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\wandb-summary.json
+2024-02-14 00:01:50,386 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\output.log
+2024-02-14 00:01:50,585 INFO    wandb-upload_1:17032 [upload_job.py:push():131] Uploaded file C:\Users\y8092k\AppData\Local\Temp\tmp6svdjjvzwandb\1knnsika-media/images/train_batch1_1_bb7d73671b99ea50f9f3.jpg
+2024-02-14 00:01:50,653 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:50,822 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:50,822 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:50,822 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:50,823 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:50,823 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:51,132 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:51,290 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:51,290 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:51,293 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:51,293 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:51,293 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:51,338 INFO    wandb-upload_2:17032 [upload_job.py:push():131] Uploaded file C:\Users\y8092k\AppData\Local\Temp\tmp6svdjjvzwandb\5jf7hbhm-media/images/train_batch2_2_19d0d41730f856ed9de9.jpg
+2024-02-14 00:01:51,386 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\wandb-summary.json
+2024-02-14 00:01:51,600 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:51,705 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: status_report
+2024-02-14 00:01:51,752 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:51,752 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:51,752 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:51,753 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:51,753 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:52,054 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:52,208 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:52,208 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:52,209 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:52,209 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:52,209 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:52,400 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\wandb-summary.json
+2024-02-14 00:01:52,400 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\output.log
+2024-02-14 00:01:52,518 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: internal_messages
+2024-02-14 00:01:52,518 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-14 00:01:52,519 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: stop_status
+2024-02-14 00:01:52,521 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:52,675 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:52,675 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:52,739 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:52,739 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:52,740 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:52,981 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:53,136 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:53,137 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:53,137 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:53,137 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:53,138 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:53,415 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\wandb-summary.json
+2024-02-14 00:01:53,438 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:53,590 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:53,590 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:53,591 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:53,591 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:53,591 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:53,893 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:54,050 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:54,050 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:54,050 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:54,050 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:54,051 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:54,356 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:54,421 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\wandb-summary.json
+2024-02-14 00:01:54,422 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\output.log
+2024-02-14 00:01:54,509 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:54,509 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:54,510 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:54,510 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:54,510 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:54,825 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:54,981 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:54,982 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:54,982 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:54,982 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:54,982 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:55,303 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:55,432 INFO    Thread-17 :17032 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\LEGO-Master\Yolo-LEGO-test\wandb\run-20240214_000136-tscgtcb5\files\wandb-summary.json
+2024-02-14 00:01:55,459 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:55,460 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:55,460 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:55,460 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:55,460 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-02-14 00:01:55,767 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:55,930 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:55,930 DEBUG   HandlerThread:17032 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-14 00:01:55,930 DEBUG   SenderThread:17032 [sender.py:send():380] send: history
+2024-02-14 00:01:55,930 DEBUG   SenderThread:17032 [sender.py:send_request():407] send_request: summary_record
+2024-02-14 00:01:55,930 INFO    SenderThread:17032 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end

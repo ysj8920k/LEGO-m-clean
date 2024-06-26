@@ -1,0 +1,19 @@
+# Data
+#path: C:\Users\chris\OneDrive\Dokumenter\GitHub\LEGO-Master\Yolo-LEGO-test\data
+path: C:\Users\chris\Documents\GitHub\LEGO-Master\Yolo-LEGO-test\data
+#path: E:\LEGO-Master\Yolo-LEGO-test\data
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test: images/test
+
+
+#kpt_shape: [4, 2]
+#flip_idx: [0, 1, 2, 3]
+
+names:
+  0: 2x4 
+  1: 2x2
+  2: 1x4
+  3: 1x2
+  4: 1x1
+
